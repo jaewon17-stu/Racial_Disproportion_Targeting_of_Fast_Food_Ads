@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("# Comment Section")
+st.markdown("# Comment Section 🧑‍💻")
 st.sidebar.markdown("Community")
 
 
