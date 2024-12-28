@@ -13,12 +13,13 @@ data = {
 df = pd.DataFrame(data)
 
 st.subheader("Fast Food Advertising Spending by State")
-st.dataframe(df)
+st.dataframe(df,width=800)
 
 # Bar chart of fast food advertising spending
 st.subheader("Advertising Spending (in $ Millions)")
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(8, 4))
 df.plot(kind='bar', x='State', y='Advertising Spending ($M)', ax=ax)
 plt.ylabel("Spending ($M)")
 plt.title("Fast Food Advertising Spending by State")
+
 st.pyplot(fig)
