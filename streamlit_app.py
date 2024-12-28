@@ -17,3 +17,4 @@ This project aims to analyze the potential relationship between fast food advert
 
 Navigate through the pages using the sidebar to explore the analysis.
 """)
+
